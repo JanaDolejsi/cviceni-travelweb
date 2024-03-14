@@ -64,19 +64,33 @@ img {
 
 /* ---Your code starts here--- */
 
+
+
 nav {
+  position: fixed;
+  top: 0%;
+
   /* všimni si, že při scrollování obsahem stránky navigace zůstává na vrchu viewportu  */
 }
 
 main {
+  position:relative;
+  top: 60px;          /*nedrží mi to 60px odshora*/
+
   /* zajisti, aby navigace nepřekrývala obsah. Navigace je vysoká 40px*/
 }
 
+.intro{
+  position: 
+}
 .travel {
+  position: sticky;
+
   /* tento div při scrollování neodjede s obsahem, ale přilepí 10px pod navigací (50px od vrchu obsahu) */
 }
 
 .picture {
+  ;
   /* je potřeba zajistit, abychom mohli přesunout popisek obrázku do pravého horního rohu obrázku */
 }
 
